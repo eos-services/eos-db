@@ -1,0 +1,36 @@
+{
+  "name": "eos-db",
+  "version": "1.0.0",
+  "description": "EOS database access library",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "prettier --write ./lib && eslint ./lib --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eos-services/eos-db.git"
+  },
+  "keywords": [
+    "Database",
+    "EOS"
+  ],
+  "author": "EOS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eos-services/eos-db/issues"
+  },
+  "homepage": "https://github.com/eos-services/eos-db#readme",
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/node": "^20.4.8",
+    "@types/ws": "^8.5.5",
+    "eslint": "^8.46.0",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^3.0.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ws": "^8.13.0"
+  }
+}
