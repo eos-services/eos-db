@@ -1,8 +1,23 @@
+# VSCode
 .vscode
+
+# NPM
 .npmrc
+
+# gitignore
 .gitignore
 
+# ESlint
+.eslint
+.eslintignore
+
+# Prettier
+.prettierrc
+.prettierignore
+
+# Dir
 src
 tests
 
+# TypeScript config
 tsconfig.json
